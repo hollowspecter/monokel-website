@@ -70,6 +70,11 @@ plugins:
   - jekyll-archives
   - jekyll-seo-tag
 
+# Include for processing
+include:
+  - .htaccess
+  - .htpasswd
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Secret area!!"
+AuthUserFile .htpasswd
+Require valid-user
