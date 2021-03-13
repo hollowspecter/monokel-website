@@ -1,12 +1,15 @@
 - default: menu_index
   url:   ""
 
+- default: menu_devnotes
+  url:  "c/dev-note"
+
 - default: menu_category
   url:   "category"
 
-- title: "Jekyll Paper"
+- title: "Old Website"
   absoluteUrl: true
-  url: "https://github.com/ghosind/Jekyll-Paper"
+  url: "https://monokel.de"
 
 - default: menu_about
   url:   "about"

@@ -1,5 +1,6 @@
 # Welcome to Jekyll-Paper!
 #
+#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
@@ -13,15 +14,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your title
-email: your-email@example.com
+title: Monokel
+email: info@monokel.de
 name: Your name
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-keywords: [Your keywords]
+  game studio based in Cologne.
+keywords: [Monokel Game Developer Studio White Shadows]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "example.com" # the domain name for your site, e.g. example.com
+domain: "monokel.de" # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
@@ -57,8 +58,8 @@ jekyll-archives:
     - tags
   layout: archive
   permalinks:
-    category: /category/:name/
-    tag: /tag/:name/
+    category: /c/:name/
+    tag: /t/:name/
 
 # Build settings
 markdown: kramdown
