@@ -18,7 +18,7 @@ title: Monokel
 email: info@monokel.de
 name: Your name
 description: >- # this means to ignore newlines until "baseurl:"
-  game studio based in Cologne.
+  independent development studio for interactive narratives.
 keywords: [Monokel Game Developer Studio White Shadows]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

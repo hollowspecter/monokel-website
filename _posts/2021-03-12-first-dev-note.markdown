@@ -11,3 +11,4 @@ Hello again.
 This is me.
 This is an example dev note.
 Don't you think this workflow is great?
+![My helpful screenshot](/assets/images/index-screenshot.png)

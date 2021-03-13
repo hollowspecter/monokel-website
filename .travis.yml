@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+  - 2.6.3
+
+before_script:
+  - chmod +x ./script/cibuild
+
+# Assume bundler is being used, therefore
+# the 'install' step will run 'bundle install' by default.
+script: ./assets/script/cibuild.sh
+
+addons:
+  apt:
+    packages:
+      - libcurl14-openssl-dev
+
+cache: bundler # caching bundler gem packages will speed up build
+
+# Optional: disable email notifications about the outcome of your build
+notifications:
+  email: false
