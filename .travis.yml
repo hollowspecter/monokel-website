@@ -28,8 +28,8 @@ script: ./assets/script/cibuild.sh
 after_sucess:
   - tar -czf package.tgz _site
   - export SSHPASS=$DEPLOY_PASS
-  - sshpass -ev scp package.tgz $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
-  - sshpass -ev ssh $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
+  - sshpass -e scp package.tgz $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+  - sshpass -e ssh $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
   - rm package.tgz
 
 # Optional: disable email notifications about the outcome of your build
