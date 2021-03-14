@@ -12,6 +12,8 @@ tar -czf package.tgz _site
 
 # upload them with sshpass
 echo "upload them with sshpass"
+echo $DEPLOY_USER
+echo $DEPLOY_HOST
 export SSHPASS=$DEPLOY_PASS
 sshpass -e scp package.tgz $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
 
