@@ -24,6 +24,7 @@ cache: bundler # caching bundler gem packages will speed up build
 
 before_script:
   - chmod +x ./assets/script/cibuild.sh
+  - chmod +x ./assets/script/deploy.sh
 
 # Assume bundler is being used, therefore
 # the 'install' step will run 'bundle install' by default.
