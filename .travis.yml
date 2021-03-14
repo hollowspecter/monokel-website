@@ -2,19 +2,34 @@ language: ruby
 rvm:
   - 2.6.3
 
+env:
+  global:
+    - secure: "dUZDoueBuzIiYo8A3YVxTfsrrbKN2Gm2i/WjOJt5p9ZGzOnv4/cBxgs6UquKykZyMzmEFqqhutrV9ECR8vEgMZr6uXx4wpjqtlDa9cn5kewiL2K8tmW+6b9W1VSK8/Ki2HyR7tmDxf3Skd9xBbg/G6m3ghhxXrsH96fGMQp8CFUvukzsXuvEKrxE2Y/JGLROVaIyAXLwBZ9Amw/jvZLUhHJ9vtVKTAXDm/OxTfuJCh0j0plOB1z+Ob+KHaSug+VHKqld0PbeTf3JWdv3P3Y94j1drAy2zU/bkaTzsooQOAG2uZhNIwEZ2PiKttWJe1zqhg9q3Hj0bi+9yj7iQIus8QFudqPQssiV0oBu6HFYxLwl99kfuqK2KOBD/e2Ixjy70y9gzT5ViMYw+jEh+AQviglmyh97Cit0xHbihCHWaHwaTgu3qtN+0IUnPwPNKhCgAbZ9twcepa9QfyXPe1UTnd7z0jZqxr4BmAlxDsbsnYL1sUnspYf2fBGzysTNX6iU8YtTBZT1McLrBZ6EgIDGT+dAY8657AZ120MsOVnpycPWrAv4reNW1e6X6XZIhXpvFStU3euuSIs2HHI8gafi1opOxJHqGnP+Q9+7pHlDnuxCe73KIRXbBPPe3cZauzwMugq2duJbzev9AtQLFY6arUCY2kWQ0jCFEfKBvzuR3Vk="
+    - secure: "aC6dNKPlNDbP+y3pxUGe/GvPXPMk2QqS96OWfFwON6siBzOVTj4SFChQVb8wX6qQOzJozCFTihtGlyPu9LfxK2UgJUuGmef8llrUJ3YwM2piDqbB9Z6/fFKy8QuXHYqNHdLf8dp+s6xttFVECgdhdw3a5zhmZ6jIZE1N569OdPmlQf4Kb6aN40pVsa7LwSaiGnHUMYUx0tWfDZsHbWUP2dHkF1jnZZ/5D4MZB96D2x1RNB/NKg3Iyx2PaAN1EHLZ/nsbcWYaxPov9SKH+0Qq8QIlNnfD2btF59AOGI1ybk6DtL1dCeNziYwkVqRl4aR1JmJgXtubvy/WEdVP36GSkP1BZhHWmo+wszIGfl6j9r8rMsHQDfZnjFBvM5kbslTFyB7JK82JdhJXCtg3Mk2jI2HV33YXTp0yvg/3eAn/Autelw8YCXI354nL4yXzhdI2PCplcbgelAMXwjg9HDwkEjjyrlD6tUZchFdKvpgaSRxO1K+XsFERJmV0r8Vls5wr+ecuUerWGWFaGO4nXCOXWGVCwVVnVwuovfuZQ9dpHNnTYNk4Tv/e2HmjxL8y0z9D2zT2j6r4rLIkdt4YnS4cg1L9BcRpgkuOnqT5MXlehJfCz7xF6JyWS2rgTlHbK4tdOedhUhbSYyu+rzIIdx1umnB9oia+L8p+jKOY9EFpnu8="
+    - secure: "TMGX4CrZbDv5LiM7oGa7JagVAqpyeCbIDown5aKCWJZEoUemYuKqDuebHHkPGGR4wvTbKEx9As57ww50MEWaSGiVHLU+OlGawlaIHpYONknNI98ZlPMa5oLV7oxSHDooL3ra3bLLdmx9SUXNnXLtgnffCI2r2uvMu1ST97JETWKX6L0GC+WrEp5twYMa7afeEAsPQNtE8LwRvQkncac3X3w2ur9Ugz0XR24KSjaQqGrYZowQzTm1r7d3UlJ8fL8Gh/r12EVhvf1mW690H376WYzbZSci3cL+zYwbN0nD2uoACLWnM9irb2dxZ0lHXq1Ap+igy5kJqu9+/PjYpS7aU/fcGEm/rf6DuWua4jvd9upiAfjkfzQaqr0r1Wav+XZqz2jowqazzuResu5ZEZCqvDKmAuJV6dO3sDY/X/tMI2Qz6tmtxJHSSUWwpP4FtxVJEPPjQ8cQzvcXZz0z50+V0jBeK9i7ZeqO7ZtNVf/PS2H4iuCDwQOhe1uJmr8TmD5dRFY7r2YYBWkcKyPHR0LqIWlgIikuJceLjRfjryTzUfL4TS3Y6JSWnKkoCh0r5NbwwURrKbqTeTEcHz+Mb4iMU2DClBiU+Q/odi38IPdWpO57MS3C+owTLvPOQfkTfbeU6dZQWbccHcqBu5joSkaFWK3XTdIupY7bIQ8beUC9pZk="
+    - secure: "akclFY40aYjly/Lp6Qyk2gSb70+nagaWs7HzEqI6rdMM6KvHx+dMA6KFp4QvsQGnQvJy1npzm5xv+hoEu1ChgCuyQ2klSF07dPSQRvax8Jox+y70+JNkvQd+x6XWwALGw8CI5vkSuFnF+Ua1xDgm0WSLiyOVLdfPSsLZd/2DDgzrzzwcl1gGtoEg0vgCR1Jz9BREaW76UzDy9JgIGPyANFp+ub9Nv456q1KtzBgBXb7VDqVRRxhRnF/qCphD93D36haRehc2+CvLKZ4vVxrYK7jVSR51tJHW4OZhSZccwe70JbFlbiQ8oWfc3/Ucsl1OwJG7pYg7n+rXa0b3aofF78HlOezn5zDKS0IpzmTJjX4ekP1ivGAD9UI9hGYKBEpVFVu6V5Pcn7evw0N40hLXkQlQ97UQyH15mKIdEH+bNKiStwspxqbNhp/9vrRGcX+fIKiW7D+2jRt5yU6sEJdcnJOTjFbniaYhHLdE5Amgvp1/BMmI3ykRXr0sCJbWhg0aR10TRSfNum8WNuG5LxeXhr69NFucS4wCYANTc7bPB98DO6B5hipAPtkfe8PROL0126knMlHWU9VEz3czc3ei2Wug0Iz8cQ1cWakzNj1Oy6wl/UJixcRsecjhdhoaS7TkxcGhq4Vg+aU+W/k0p16IVemNjGunDM4885Ig5TFb/Xk="
+
+sudo: false
+addons:
+  apt:
+    packages:
+      - sshpass
+
+cache: bundler # caching bundler gem packages will speed up build
+
 before_script:
   - chmod +x ./assets/script/cibuild.sh
 
 # Assume bundler is being used, therefore
 # the 'install' step will run 'bundle install' by default.
+# Will run HTMLProofer + Jekyll Build
 script: ./assets/script/cibuild.sh
 
-# addons:
-#   apt:
-#     packages:
-#       - libcurl14-openssl-dev
-
-cache: bundler # caching bundler gem packages will speed up build
+after_sucess:
+  - tar -czf package.tgz _site
+  - export SSHPASS=$DEPLOY_PASS
+  - sshpass -e scp package.tgz $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+  - sshpass -e ssh $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
 
 # Optional: disable email notifications about the outcome of your build
 notifications:
