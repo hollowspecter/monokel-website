@@ -35,8 +35,8 @@ deploy:
   skip_cleanup: true
   provider: script
   script: ./assets/script/deploy.sh $DEPLOY_HOST $DEPLOY_PATH $DEPLOY_USER $DEPLOY_PASS
-  # on:
-  #   branch: main
+on:
+  all_branches: true
 
 # after_success:
 #   - tar -czf package.tgz _site
