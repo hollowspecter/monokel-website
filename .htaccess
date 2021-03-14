@@ -1,4 +1,5 @@
 AuthType Basic
 AuthName "Secret area!!"
-AuthUserFile .htpasswd
-Require valid-user
+AuthUserFile /var/www/virtual/vivi/.htuser
+Require user mono
+
