@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+DEPLOY_HOST=$1
+DEPLOY_PATH=$2
+DEPLOY_USER=$3
+DEPLOY_PASS=$4
+
 # zip up the files
 tar -czf package.tgz _site
 
