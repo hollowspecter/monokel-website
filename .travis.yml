@@ -47,4 +47,8 @@ deploy:
 
 # Optional: disable email notifications about the outcome of your build
 notifications:
-  email: false
+  email:
+    recipients:
+     - baguiov@posteo.net
+    on_success: never
+    on_failure: always
