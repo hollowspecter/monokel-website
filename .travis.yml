@@ -1,4 +1,6 @@
 language: ruby
+os: linux
+dist: xenial
 rvm:
   - 2.6.3
 
@@ -25,7 +27,7 @@ before_script:
 # Will run HTMLProofer + Jekyll Build
 script: ./assets/script/cibuild.sh
 
-after_sucess:
+after_success:
   - tar -czf package.tgz _site
   - export SSHPASS=$DEPLOY_PASS
   - sshpass -e scp package.tgz $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
